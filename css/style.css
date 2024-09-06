@@ -1,0 +1,31 @@
+/* Global Variables */
+:root {
+    --primary-color: #ffca28;
+    --secondary-color: #00796b;
+    --dark-bg: #37474f;
+    --text-light: #ffffff;
+    --text-dark: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Back to Top Button */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 16px;
+    z-index: 100;
+}

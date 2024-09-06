@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Panel Installers</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="./image/icon-32x32.png" alt="Company Logo" width="40" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Trade</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="contact-info ml-lg-3">
+                    <a href="tel:+12345645645" class="text-white">+1234 5456 45</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero d-flex align-items-center text-center bg-dark text-white" style="background-image: url('hero-bg.png');">
+            <div class="container">
+                <h1 class="display-4">Solar Panel Installers in Plymouth</h1>
+                <p class="lead">Fuelled by award-winning technology, we provide innovative solutions for generating solar power efficiently.</p>
+                <div class="mt-4">
+                    <a href="#" class="btn btn-warning btn-lg mr-2">Request a Quote</a>
+                    <a href="#" class="btn btn-outline-light btn-lg">Find out more</a>
+                </div>
+                <img src="./image/1.jpeg" alt="Solar Panel Image" class="img-fluid mt-4">
+            </div>
+        </section>
+
+        <!-- Solar Kits Section -->
+        <section class="solar-kits py-5 text-center">
+            <div class="container">
+                <h2 class="mb-5">Solar Kits</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="./image/6.jpeg" class="card-img-top" alt="Off Grid Solar">
+                            <div class="card-body">
+                                <h5 class="card-title">Off Grid</h5>
+                                <p class="card-text">Great for remote areas, off-grid solar systems are efficient and reliable.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="./image/5.jpeg" class="card-img-top" alt="On Grid Solar">
+                            <div class="card-body">
+                                <h5 class="card-title">On Grid</h5>
+                                <p class="card-text">Connect your solar system to the grid for maximum flexibility.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="./image/4.jpeg" class="card-img-top" alt="Hybrid Solar">
+                            <div class="card-body">
+                                <h5 class="card-title">Hybrid</h5>
+                                <p class="card-text">Combine grid power with solar energy for an eco-friendly, cost-effective solution.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="values py-5 bg-light">
+            <div class="container text-center">
+                <h2>Our Values</h2>
+                <div class="row mt-5">
+                    <div class="col-md-4">
+                        <h3>Customer Care</h3>
+                        <p>We prioritize our customers by providing 24/7 support and personalized services.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Price</h3>
+                        <p>Our prices are competitive without compromising on quality or sustainability.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Sustainability</h3>
+                        <p>All our products are designed with sustainability and longevity in mind.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials py-5 text-center">
+            <div class="container">
+                <h2>What They Say About Us</h2>
+                <blockquote class="blockquote">
+                    <p class="mb-0">"Studying at WOC is fun, the curriculum is complete, the instructions are competent, and the assignments given are relevant to the current scope of work."</p>
+                    <footer class="blockquote-footer">Roselyn Fernandez, Product Engineer</footer>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+
+    <!-- Contact Form Section -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h5>Contact Us</h5>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning mt-2">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <p>&copy; 2024 Solar Panel Installers. All Rights Reserved.</p>
+                    <nav class="nav justify-content-center">
+                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white" href="#">Careers</a>
+                        <a class="nav-link text-white" href="#">Services</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="btn btn-warning" title="Go to top">&uarr; Back to Top</button>
+
+    <!-- Custom JavaScript -->
+    <script>
+        // Show/Hide Back to Top Button on Scroll
+        window.onscroll = function() {
+            let button = document.getElementById("backToTop");
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                button.style.display = "block";
+            } else {
+                button.style.display = "none";
+            }
+        };
+
+        // Smooth Scroll to Top
+        document.getElementById("backToTop").onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+</body>
+</html>
